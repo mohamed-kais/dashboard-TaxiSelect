@@ -6,6 +6,12 @@
   NODE_VERSION = "18"
 
 [[redirects]]
+  from = "/api/*"
+  to = "http://41.225.11.231:8444/:splat"
+  status = 200
+  force = true
+
+[[redirects]]
   from = "/*"
   to = "/index.html"
   status = 200
