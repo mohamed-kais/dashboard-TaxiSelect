@@ -1,6 +1,9 @@
 [build]
-  command = "npm run build"
-  publish = "dist/sms-taxi-admin"
+  command = "npm install --legacy-peer-deps && npm run build"
+  publish = "dist/dashboard/browser"
+
+[build.environment]
+  NODE_VERSION = "18"
 
 [[redirects]]
   from = "/*"
