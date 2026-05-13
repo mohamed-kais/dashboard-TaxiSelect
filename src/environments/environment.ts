@@ -7,38 +7,38 @@ export const environment = {
     // SMS TAXI
     // ======================================================
 
-    smsTaxi: 'http://41.225.11.231:8777/taxi-client/api',
+    smsTaxi: '/api/taxi-client/api',
 
-    smsClient: 'http://41.225.11.231:8777/taxi-client/api',
+    smsClient: '/api/taxi-client/api',
 
-    smsOut: 'http://41.225.11.231:8777/api',
+    smsOut: '/api/api',
 
-    smsTaxidelete: 'http://41.225.11.231:8777',
+    smsTaxidelete: '/api',
 
-    smsAuth: 'http://41.225.11.231:8444',
+    smsAuth: '/api',
 
     // ======================================================
     // TAXI SELECT
     // ======================================================
 
-    taxiSelect: 'http://41.225.11.231:8444/taxi-client/api',
+    taxiSelect: '/api/taxi-client/api',
 
     // ======================================================
     // OTHER SERVICES
     // ======================================================
 
-    fleet: 'http://41.225.11.231:8444/fleet-api',
+    fleet: '/api/fleet-api',
 
-    discovery: 'http://41.225.11.231:8777/discovery',
+    discovery: '/api/discovery',
 
-    apiGateway: 'http://41.225.11.231:8777/api-gateway'
+    apiGateway: '/api/api-gateway'
   },
 
   // ======================================================
   // WEBSOCKETS
   // ======================================================
 
-  wsBaseUrl: 'http://41.225.11.231:8981/ws',
+  wsBaseUrl: 'ws://41.225.11.231:8981/ws',
 
-  adminWsBaseUrl: 'http://41.225.11.231:8981/admin-ws'
+  adminWsBaseUrl: 'ws://41.225.11.231:8981/admin-ws'
 };
